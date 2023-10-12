@@ -118,6 +118,7 @@
 
 /*Sub Section 3 Tools Styling*/
 .Features .Sub-Section-three .Tools{
+    width: 1100px;
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -128,11 +129,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .Sub-Section-three .Tools .Tool h2{
     padding-top: 25px;
     color: rgb(79 84 89);
     margin-bottom: 0;
+}
+.Sub-Section-three .Tools .Tool p{
+    width: 100% !important;
 }
 
 /*Mobile view query edits*/
@@ -148,4 +153,5 @@
         margin-top: 80px;
     }
 }
+
 
