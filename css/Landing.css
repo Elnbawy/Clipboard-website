@@ -1,0 +1,23 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+.landing h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(79 84 89);
+  margin-top: 0px;
+}
+
+/*Mobile view query edits*/
+@media (max-width: 492px) {
+  .landing h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    width: 90%;
+  }
+}

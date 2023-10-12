@@ -1,0 +1,28 @@
+.LastSection{
+    margin-bottom: 125px;
+    margin-top: 25px;
+}
+.LastSection :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Big-Container{
+    display: flex;
+    justify-content: center;
+}
+.Companies {
+    margin-bottom: 80px;
+}
+.LastSection img{
+    margin: auto 20px;
+}
+
+@media (max-width:492px) {
+    .Companies{
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 70px;
+    }
+}
